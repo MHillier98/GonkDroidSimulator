@@ -1,7 +1,31 @@
-[gd_resource type="SpatialMaterial" format=2]
+[gd_resource type="SpatialMaterial" load_steps=7 format=2]
+
+[ext_resource path="res://Models/Gonk/textures/01 - Default_normal.png" type="Texture" id=1]
+[ext_resource path="res://Models/Gonk/textures/01 - Default_metallic.jpg" type="Texture" id=2]
+[ext_resource path="res://Models/Gonk/textures/01 - Default_roughness.jpg" type="Texture" id=3]
+[ext_resource path="res://Models/Gonk/textures/01 - Default_emissive.jpg" type="Texture" id=4]
+[ext_resource path="res://Models/Gonk/textures/01 - Default_AO.jpg" type="Texture" id=5]
+[ext_resource path="res://Models/Gonk/textures/01 - Default_albedo.jpg" type="Texture" id=6]
 
 [resource]
 resource_name = "01___Default"
-params_cull_mode = 2
-albedo_color = Color( 0.588235, 0.588235, 0.588235, 1 )
-roughness = 0.0764706
+flags_ensure_correct_normals = true
+albedo_texture = ExtResource( 6 )
+metallic = 0.3
+metallic_specular = 0.3
+metallic_texture = ExtResource( 2 )
+roughness_texture = ExtResource( 3 )
+emission_enabled = true
+emission = Color( 0, 0, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+emission_texture = ExtResource( 4 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 1 )
+ao_enabled = true
+ao_light_affect = 1.0
+ao_texture = ExtResource( 5 )
+ao_on_uv2 = false
+ao_texture_channel = 0
