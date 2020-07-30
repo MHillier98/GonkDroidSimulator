@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Gonk.tscn" type="PackedScene" id=1]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 40, 1, 40 )
+
+[node name="Test" type="Spatial"]
+
+[node name="Floor" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="Gonk" parent="." instance=ExtResource( 1 )]
+transform = Transform( 70, 0, 0, 0, 70, 0, 0, 0, 70, 0, 1.2, 0 )
