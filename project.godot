@@ -1076,4 +1076,13 @@ scene={
 
 [rendering]
 
+quality/filters/anisotropic_filter_level=8
+quality/directional_shadow/size=8192
+quality/shadow_atlas/size=8192
+quality/shadows/filter_mode=2
+quality/shading/force_vertex_shading=true
+quality/subsurface_scattering/quality=2
+quality/subsurface_scattering/follow_surface=true
+quality/voxel_cone_tracing/high_quality=true
+quality/filters/msaa=3
 environment/default_environment="res://default_env.tres"

@@ -89,3 +89,9 @@ transform = Transform( -50, -1.62921e-05, -2.65431e-12, 0, -8.14603e-06, 50, -1.
 
 [node name="Cube040" parent="FloorPanels" instance=ExtResource( 4 )]
 transform = Transform( -50, -1.62921e-05, -2.65431e-12, 0, -8.14603e-06, 50, -1.62921e-05, 50, 8.14603e-06, -10, 0, 14 )
+
+[node name="Cube041" parent="FloorPanels" instance=ExtResource( 4 )]
+transform = Transform( 50, 0, 0, 0, -2.18557e-06, 50, 0, -50, -2.18557e-06, -2, 0, 14 )
+
+[node name="Cube042" parent="FloorPanels" instance=ExtResource( 4 )]
+transform = Transform( -50, -1.62921e-05, -2.65431e-12, 0, -8.14603e-06, 50, -1.62921e-05, 50, 8.14603e-06, -10, 0, 18 )
