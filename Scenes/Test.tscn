@@ -22,14 +22,14 @@ material/0 = null
 [node name="Bunker" parent="." instance=ExtResource( 2 )]
 transform = Transform( -628.576, 0, -308.045, 0, 700, 0, 308.045, 0, -628.576, 2.4858, 2.54, 8.59808 )
 
-[node name="Gonk" parent="." instance=ExtResource( 1 )]
-transform = Transform( 70, 0, 0, 0, 70, 0, 0, 0, 70, 0, 1.2, 0 )
-
-[node name="Camera" type="Camera" parent="Gonk"]
-transform = Transform( -0.0142518, 0.000421394, -0.000889017, -6.18778e-10, 0.012909, 0.00611886, 0.000983831, 0.00610433, -0.0128783, -0.0089435, 0.0213694, -0.0439084 )
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.997626, 0.0294975, -0.0622312, -4.33144e-08, 0.903628, 0.428319, 0.0688682, 0.427302, -0.901482, -0.626045, 2.69586, -1.98501 )
 current = true
 fov = 80.0
 far = 200.0
+
+[node name="Gonk" parent="." instance=ExtResource( 1 )]
+transform = Transform( -36.6426, 0, -59.6433, 0, 70, 0, 59.6433, 0, -36.6426, -0.0912542, 1.2, 1.47313 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.958119, -0.0556296, -0.280916, 0.193631, -0.596879, 0.778616, -0.210987, -0.8004, -0.561109, -3.17207, 4.90759, -4.08328 )
