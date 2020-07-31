@@ -5,18 +5,18 @@
 [ext_resource path="res://Scenes/Sci-fi_Floor/Cube020.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Scenes/Sci-fi_Floor/Cube028.tscn" type="PackedScene" id=4]
 
-[sub_resource type="SpatialMaterial" id=2]
+[sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.301961, 0.247059, 0.247059, 1 )
 
-[sub_resource type="CubeMesh" id=1]
-material = SubResource( 2 )
+[sub_resource type="CubeMesh" id=2]
+material = SubResource( 1 )
 size = Vector3( 40, 1, 40 )
 
 [node name="Test" type="Spatial"]
 
 [node name="Floor" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.28, 0 )
-mesh = SubResource( 1 )
+mesh = SubResource( 2 )
 material/0 = null
 
 [node name="Bunker" parent="." instance=ExtResource( 2 )]
