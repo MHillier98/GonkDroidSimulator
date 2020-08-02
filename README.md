@@ -3,4 +3,4 @@ I put this together for a 'quick' meme, when the Creative Director on Star Wars 
 
 So, I found some assets on Sketchfab, and quickly threw them into the Godot Engine to make this:
 
-![Preview Image](https://github.com/MHillier98/GonkDroidSimulator/blob/master/Screenshot.png "Preview Image")
+![Preview Screenshot](./Screenshot.png "Preview Screenshot")
